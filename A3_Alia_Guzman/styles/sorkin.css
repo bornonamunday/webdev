@@ -1,70 +1,73 @@
 /*DOCUMENT STUFF*/
 html {
-background-color : ;
-}
-body {
-display : ;
-}
+    background-color : yellow;
+    }
+    body {
+    display: ;
+    }
 
-/* BODY STUFF*/
-body {
-font-family : ;
-font-size : ;
-background-color :;
-width : ;
-margin : ;
-padding : ;
-padding-bottom : ;
-padding-top : ;
-border : ;
-border-color : ;
-border-style : ;
-border-width : ;
-}
+    /* BODY STUFF*/
+    body {
+    font-family: ;
+    font-size:95%;
+    background-color:white;
+    width:600px;
+    margin:auto;
+    padding:25px;
+    padding-bottom :;
+    padding-top : ;
+    border:double;
+    border-color: blue ;
+    border-style : ;
+    border-width:10px;
+    }
 
-h1 {
-    font-size: %;
-    padding: ;
-    margin: ;
-    color: ;
-}
-h2 {
-    font-size: ;
-    padding: ;
-}
-h3 {
-    font-size: %;
-    padding-bottom: ;
+    h1 {
+        font-size:150%;
+        padding: ;
+        margin-bottom:10px;
+        color:blue;
+    }
+    h2 {
+        font-size:115%;
+        padding: ;
+    }
+    h3 {
+        font-size:115%;
+        margin-top: 10px;
+        margin-bottom: 10px ; 
+        padding-bottom: ;
+    }
 
-p {
-font-size : ;
-}
+    p {
+    font-size : ;
+    }
 
-img {
-float : ;
-padding-right : ;
-}
+    img {
+    float : ;
+    padding-right : ;
+    }
 
-.cite {
-    color: ; 
-    font-style: ;
+    .cite {
+        color: ; 
+        font-style: ;
+        text-align : ;
+    }
+
+    ul {
+    padding-left: ;
+    }
+
+    /* FOOTER STUFF*/
+
+    footer  {
+    border-top-color : ;
+    border-top :;
+    }
+
+    footer p {
     text-align : ;
-}
-
-ul {
-padding-left: ;
-}
-
-/* FOOTER STUFF*/
-
-footer  {
-border-top-color : ;
-border-top :;
-}
-
-footer p {
-text-align : ;
-font-weight : ;
-font-size: ; 
-margin: ;    
-}
+    font-weight : ;
+    font-size: ; 
+    margin: ;    
+    }
