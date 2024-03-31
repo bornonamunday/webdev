@@ -1,0 +1,70 @@
+/*DOCUMENT STUFF*/
+html {
+background-color : ;
+}
+body {
+display : ;
+}
+
+/* BODY STUFF*/
+body {
+font-family : ;
+font-size : ;
+background-color :;
+width : ;
+margin : ;
+padding : ;
+padding-bottom : ;
+padding-top : ;
+border : ;
+border-color : ;
+border-style : ;
+border-width : ;
+}
+
+h1 {
+    font-size: %;
+    padding: ;
+    margin: ;
+    color: ;
+}
+h2 {
+    font-size: ;
+    padding: ;
+}
+h3 {
+    font-size: %;
+    padding-bottom: ;
+
+p {
+font-size : ;
+}
+
+img {
+float : ;
+padding-right : ;
+}
+
+.cite {
+    color: ; 
+    font-style: ;
+    text-align : ;
+}
+
+ul {
+padding-left: ;
+}
+
+/* FOOTER STUFF*/
+
+footer  {
+border-top-color : ;
+border-top :;
+}
+
+footer p {
+text-align : ;
+font-weight : ;
+font-size: ; 
+margin: ;    
+}
