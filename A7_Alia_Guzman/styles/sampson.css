@@ -9,7 +9,7 @@ html {
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 850px;
+    width: 98%;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -46,9 +46,9 @@ main {
 
 /* the styles for the section */
 section {
-	width: 575px ;
+	width: 57.5% ;
 	float: right;
-	padding: 0 20px 20px 20px;
+	padding: 0 2.5% 20px 2.5%;
 }
 section h1 {
 	color: #800000;
@@ -76,9 +76,9 @@ article img {
 
 /* the styles for the aside */
 aside {
-	width: 215px;
+	width: 21.5%;
 	float: right;
-	padding: 0 0 20px 20px;
+	padding: 0 0 20px 2.5%;
 }
 aside h2 {
 	color: #800000;
@@ -95,6 +95,45 @@ aside img {
 }
 
 /*navigation menu*/
+
+/* {margin:0 ;
+padding: 0;} --- remove all these lines
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	
+	aside ul li a {
+		display: block ;
+		padding:5px 10px ;
+		margin-bottom: 10px;
+		text-decoration:none ;
+		border: 1px solid black;
+		border-radius: 5px;
+		border-right:2px soild #800000 ;
+		border-bottom: 2px soild #800000 ;
+		font-weight: bold;
+		color: #000;
+		text-align: left;
+		position: relative;
+		box-shadow:2px 2px 2px #800000 ;
+	}
+	nav ul li a.current {
+		color: #800000 ;
+		font-weight: bold;
+	}*/
+	/* arrow background  ---- Remove this section*/
+	/*nav ul li a::after{
+		background-image: url("../images/right.jpg");
+		background-repeat: no-repeat;
+		background-position: 55% 50%;
+		content: '';
+		width: 15px;
+		height:15px;
+	
+	} */
+	
+	/* add these lines */
 	aside ul a{
 	padding-bottom: 10px;
 	text-decoration: none;
@@ -112,8 +151,8 @@ aside img {
 	border-radius: 15px;
 	border-color: black;
 	box-shadow: 3px 4px #800000;
-	margin-bottom: 10px;
-	padding: 7px 0 7px 5px;
+	margin-bottom: 2.5%;
+	padding: 1% 0 1% 2.5%;
 	color:black;
 }
 #nav_list{
@@ -127,5 +166,13 @@ footer {
 }
 footer p {
 	text-align: center;
-	padding: 16px 0;
+	color: white;
+	padding: 1em 0;
+}
+ article img{
+	float:right;
+	margin: .5em 0 1em 1em;
+	border: 1px soild black;
+	max-width: 50%;
+
 }
