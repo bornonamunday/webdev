@@ -1,8 +1,95 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <h1>My first Heading
-            <p>My first paragraph</p>
-        </h1>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>Employee table</title>
+	<style>
+		body {
+			width: 750px;
+			margin: 0 auto;
+		}
+		table {
+			border-collapse: collapse;
+			border: 1px solid black;
+			margin: 20px;
+		}
+		thead {
+			background-color: yellow;
+		}
+		th, td {
+			border: 1px solid black;
+			padding: .2em 1em .2em .5em;
+			text-align: left;
+			vertical-align: middle;
+		}
+		.right {
+			text-align: right;
+		}
+		tbody tr:nth-child(even) td {
+			background-color: yellow;
+		}
+        <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Table</title>
+    <style>
+        /* Your CSS styles can go here */
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th class="left">Department</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th class="right">Years of Service</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="left">Editorial</td>
+                <td>Joel Murach</td>
+                <td>joelmurach@yahoo.com</td>
+                <td class="right">22</td>
+            </tr>
+            <tr>
+                <td class="left">Editorial</td>
+                <td>Anne Boehm</td>
+                <td>anne@murach.com</td>
+                <td class="right">34</td>
+            </tr>
+            <tr>
+                <td class="left">Editorial</td>
+                <td>Zak Ruvalcaba</td>
+                <td>zak@modulemedia.com</td>
+                <td class="right">4</td>
+            </tr>
+            <tr>
+                <td class="left">Editorial</td>
+                <td>Judy Taylor</td>
+                <td>judy@murach.com</td>
+                <td class="right">39</td>
+            </tr>
+            <tr>
+                <td class="left">Editorial</td>
+                <td>Cyndi Vasquez</td>
+                <td>cyndi@murach.com</td>
+                <td class="right">10</td>
+            </tr>
+            <tr>
+                <td class="left">Editorial</td>
+                <td>Kelly Slivkoff</td>
+                <td>kelly@murach.com</td>
+                <td class="right">25</td>
+            </tr>
+            <tr>
+                <td class="left">Editorial</td>
+                <td>Juliette Baylon</td>
+                <td>juliette@murach.com</td>
+                <td class="right">1</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
 </html>
